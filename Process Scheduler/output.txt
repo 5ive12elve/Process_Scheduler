@@ -1,0 +1,60 @@
+
+			 FCFS 
+
+Process No.	AT	CPU Burst Time	CT	TAT	WT	RT
+1		0	10		10	10	0	0
+
+2		0	1		11	11	10	10
+
+3		0	2		13	13	11	11
+
+4		0	1		14	14	13	13
+
+5		0	5		19	19	14	14
+
+
+Average Turn Around time= 13.4
+Average Waiting Time= 9.6
+Average Response Time= 9.6
+Throughput= 0.263158
+CPU Utilization(Percentage)= 100
+
+			 SJF 
+
+Process No.	AT	CPU Burst Time	CT	TAT	WT	RT
+1		0	10		19	19	9	9
+
+2		0	1		1	1	0	0
+
+3		0	2		4	4	2	2
+
+4		0	1		2	2	1	1
+
+5		0	5		9	9	4	4
+
+
+Average Turn Around time= 7
+Average Waiting Time= 3.2
+Average Response Time= 3.2
+Throughput= 0.263158
+CPU Utilization(Percentage)= 100
+
+			 RR 
+
+Process No.	AT	CPU Burst Time	CT	TAT	WT	RT
+0		0	10		19	19	9	0
+
+1		0	1		2	2	1	1
+
+2		0	2		7	7	5	2
+
+3		0	1		4	4	3	3
+
+4		0	5		14	14	9	4
+
+ 
+ Average Turn Around time = 9.2 
+ Average Waiting Time = 5.4 
+ Average Response Time = 2 
+ Throughput=0.263158 
+ CPU Utilization(Percentage) = 100
